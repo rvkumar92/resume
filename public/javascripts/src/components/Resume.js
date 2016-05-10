@@ -37,13 +37,6 @@ var Resume = React.createClass({
                             <div className="work inner well">
                                 <Work workData={workData} />
                                 <br/>
-                                <h2 className="text-uppercase">Interest</h2>
-                                <hr/>
-                                <ul>
-                                    <li>{interest.web}</li>
-                                    <li>{interest.mobile}</li>
-                                </ul>
-                                <br/>
                                 <Github />
                                 <br/>
                                 <Skills skillset={skillset} />

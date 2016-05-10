@@ -1,7 +1,7 @@
 var resumeContext = {
     "profile": {
         "name": "Vijay Kumar",
-        "role": "Developer",
+        "role": "Programmer",
         "picture": "javascripts/src/images/profile.png",
         "email": "rvkumar2906@gmail.com",
         "mobile": "+91 9944239288",
@@ -34,8 +34,17 @@ var resumeContext = {
             "workSummary": [
                 {
                     "java":"Core team member who is responsible for developing,enhancing and bug fixing backend services which is written in java that uses soap services",
-                    "angular":"Singly worked in an angularjs project, projected list of tables into a datagrid to perform crud operations on selected table. Initially used angular ng-grid and later moved onto ag-grid",
-                    "css": "Currently working on a css related work to externalize whole css using less as well as making the module responsive for the specified resolution"
+                    "angular":[
+                        {
+                            "header": " Angular Datagrid for CRUD Operations"
+                        }
+
+                      ],
+                    "css":[
+                      {
+                        "header": "Externalization of CSS using LESS"
+                      }
+                    ]
                 }
             ],
             "highligts": []
