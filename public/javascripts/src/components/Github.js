@@ -77,6 +77,19 @@ var Github = React.createClass({
                 </div>
 
             }
+            if(repo.id == '57855834'){
+              return <div>
+                <div className="col-md-12 reponame text-primary">
+                  <a href={repo.html_url} target="_blank" key={i}>{repo.name}</a>
+                </div>
+                <div className="col-md-12 repodescription">
+                  <p key={i}>Replicated the given design problem using reactjs, following Material design guidelines ,aided by MaterializeCSS.</p>
+                </div>
+                <div className="col-md-12" key={i}>
+                    <span className={tags}>materializecss</span>
+                </div>
+              </div>
+            }
         });
         var secondHalfUserRepos = this.state.userRepos.map((repo,i)=>{
             if(repo.id == '55171168'){

@@ -11,7 +11,7 @@ var resumeContext = {
             "address": "Pallikaranai",
             "region": "TamilNadu"
         },
-        "summary": "Wanna be a Programmer",
+        "summary": "Wanna be Programmer"
         "social": [
             {
                 "network": "linkedin",
@@ -80,6 +80,7 @@ var resumeContext = {
         "Expressjs",
         "Angularjs",
         "Bootstrap",
+        "MaterializeCSS",
         "ES2015",
         "Eclipse",
         "Webstorm"
