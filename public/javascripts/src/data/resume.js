@@ -11,7 +11,7 @@ var resumeContext = {
             "address": "Pallikaranai",
             "region": "TamilNadu"
         },
-        "summary": "Wanna be Programmer"
+        "summary": "Wanna be Programmer",
         "social": [
             {
                 "network": "linkedin",
@@ -33,7 +33,7 @@ var resumeContext = {
             "to":"Present",
             "workSummary": [
                 {
-                    "java":"Core team member who is responsible for developing,enhancing and bug fixing backend services which is written in java that uses soap services",
+                    "java":"Core team member who is responsible for developing,enhancing and bug fixing backend services which is written in java that were exposed for consumption using soap.",
                     "angular":[
                         {
                             "header": " Angular Datagrid for CRUD Operations"
