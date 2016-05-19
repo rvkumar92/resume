@@ -11,7 +11,9 @@ var WorkItem = React.createClass({
             <div>
                 <h4>{this.props.workitem.position},{this.props.workitem.company}</h4>
                 <p style={{color:"#777b79"}}>{this.getWorkDates()}</p>
-                <p>{this.props.workitem.workSummary[0].java}</p>
+                <p style={{fontWeight:600,fontSize:'12px'}}>{this.props.workitem.workSummary[0].java[0].header}</p>
+                <p>Developed services for a telecommunication system using Java.
+                  The services were exposed for consumption using SOAP.</p>
                 <p style={{fontWeight:600,fontSize:'12px'}}>{this.props.workitem.workSummary[0].angular[0].header}</p>
                 <p>Built an AngularJS application to project a list of Master data tables in to a datagrid.
                 The goal of the project was to simplify the task of performing CRUD operations on a selected table.

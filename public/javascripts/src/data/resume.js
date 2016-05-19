@@ -33,7 +33,11 @@ var resumeContext = {
             "to":"Present",
             "workSummary": [
                 {
-                    "java":"Core team member who is responsible for developing,enhancing and bug fixing backend services which is written in java that were exposed for consumption using soap.",
+                    "java": [
+                      {
+                        "header": "Telecommunication System Services"
+                      }
+                    ],
                     "angular":[
                         {
                             "header": " Angular Datagrid for CRUD Operations"
