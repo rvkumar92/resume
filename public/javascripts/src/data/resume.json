@@ -1,92 +1,106 @@
 {
-  "profile": {
-    "name": "Vijay Kumar",
-    "role": "Developer",
-    "picture": "profile.png",
-    "email": "rvkumar2906@gmail.com",
-    "mobile": "+91 9944239288",
-    "location": {
-      "zipcode": "600100",
-      "city": "Chennai",
-      "address": "Pallikaranai",
-      "region": "TamilNadu"
+    "profile": {
+        "name": "Vijay Kumar",
+        "role": "Programmer",
+        "picture": "javascripts/src/images/profile.png",
+        "email": "rvkumar2906@gmail.com",
+        "mobile": "+91 9944239288",
+        "location": {
+            "zipcode": "600100",
+            "city": "Chennai",
+            "address": "Pallikaranai",
+            "region": "TamilNadu"
+        },
+        "summary": "Wanna be Programmer",
+        "social": [
+            {
+                "network": "linkedin",
+                "username": "rvkumar92",
+                "url": "https://in.linkedin.com/in/rvkumar92"
+            },
+            {
+                "network": "github",
+                "username": "rvkumar92",
+                "url": "https://github.com/rvkumar92"
+            }
+        ]
     },
-    "summary": "Wanna be a Programmer",
-    "social": [
-      {
-        "network": "linkedin",
-        "username": "rvkumar92",
-        "url": "https://in.linkedin.com/in/rvkumar92"
-      },
-      {
-        "network": "github",
-        "username": "rvkumar92",
-        "url": "https://github.com/rvkumar92"
-      }
-    ]
-  },
-  "work": [
-    {
-      "company": "TCS",
-      "postion": "Systems Engineer",
-      "from": "2013-08-01",
-      "to":"Present",
-      "summary": "",
-      "highligts": []
-    }
-  ],
-  "education": [
-    {
-      "college": "SASTRA University",
-      "course": "B.Tech CSE",
-      "from": "2009",
-      "to": "2013",
-      "cgpa":"7.0"
-    }
-  ],
-  "skills":[
-    {
-      "tools": [
+    "work": [
+        {
+            "company": "TCS",
+            "position": "Systems Engineer",
+            "from": "2013-08-01",
+            "to":"Present",
+            "workSummary": [
+                {
+                    "java": [
+                      {
+                        "header": "Telecommunication System Services",
+                        "content": "Developed services for a telecommunication system using Java.The services were exposed for consumption using SOAP."
+                      }
+                    ],
+                    "angular":[
+                        {
+                            "header": " Angular Datagrid for CRUD Operations",
+                            "content": "Built an AngularJS application to project a list of Master data tables in to a datagrid.\
+                            The goal of the project was to simplify the task of performing CRUD operations on a selected table.\
+                            The project initially used Angular ng-grid and was later moved onto ag-grid"
+                        }
+
+                      ],
+                    "css":[
+                      {
+                        "header": "Externalization of CSS using LESS",
+                        "content": "Working on a project to externalize whole CSS for a bespoke CRM application.\
+                          Responsiveness, tidying the CSS, and creating a common header , footer & common design for modules are some of the key tasks involved in the project"
+                      }
+                    ]
+                }
+            ],
+            "highligts": []
+        }
+    ],
+    "education": [
+        {
+            "college": "SASTRA University",
+            "course": "B.Tech CSE",
+            "from": "2009",
+            "to": "2013",
+            "cgpa":"7.0"
+        }
+    ],
+    "skills":[
         "Gulp",
         "Browserify",
-        "Weback",
+        "Webpack",
         "Maven",
+        "Heroku",
         "Npm",
-        "Git"
-      ],
-      "programming": [
+        "Git",
         "Java",
         "Android",
         "Reactjs & Flux",
         "HTML & CSS",
         "Javascript",
-        "Nodejs"
-      ],
-      "databases": [
+        "Nodejs",
         "MySQL",
         "Oracle",
-        "NoSQL",
         "Mongolab",
-        "Firebase"
-      ],
-      "frameworks": [
+        "Firebase",
         "Expressjs",
         "Angularjs",
         "Bootstrap",
-        "ES2015"
-      ],
-      "softwares": [
+        "MaterializeCSS",
+        "ES2015",
         "Eclipse",
         "Webstorm"
-      ]
+    ],
+    "languages": [
+        "Tamil",
+        "English"
+    ],
+    "interest": {
+        "mobile":"Android Application Development",
+        "web":"Web Application Development"
     }
-  ],
-  "languages": [
-    "Tamil",
-    "English"
-  ],
-  "interest": [
-    "Android Application Development",
-    "Web Application Development"
-  ]
 }
