@@ -78,23 +78,22 @@
         "Npm",
         "Git",
         "Java",
+        "Python",
         "Android",
         "Reactjs & Flux",
         "HTML & CSS",
-        "Less"
+        "Less",
         "Javascript",
-        "Nodejs",
         "MySQL",
         "Oracle",
         "Mongolab",
         "Firebase",
-        "Expressjs",
-        "Angularjs",
         "Bootstrap",
         "MaterializeCSS",
         "ES2015",
         "Eclipse",
-        "Webstorm"
+        "Webstorm",
+        "Flask"
     ],
     "languages": [
         "Tamil",
